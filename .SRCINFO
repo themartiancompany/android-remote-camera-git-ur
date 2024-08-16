@@ -1,6 +1,6 @@
 pkgbase = android-remote-camera-git
-	pkgdesc = Android camera recorder.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.gda25be8351301cf2595916353e53ced8ca5df744
+	pkgdesc = Android remote camera.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.r0.g5b3e06f024b089a173a01c3387bbf0f9d2f83651
 	pkgrel = 1
 	url = https://github.com/themartiancompany/android-remote-camera
 	arch = any
@@ -11,10 +11,10 @@ pkgbase = android-remote-camera-git
 	makedepends = make
 	makedepends = curl
 	makedepends = jq
-	depends = android-utils
+	depends = android-vnc-viewer
 	depends = dynssh
 	depends = libcrash-bash
-	provides = android-remote-camera=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.gda25be8351301cf2595916353e53ced8ca5df744
+	provides = android-remote-camera=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.r0.g5b3e06f024b089a173a01c3387bbf0f9d2f83651
 	conflicts = android-remote-camera
 	source = android-remote-camera.tar.gz::https://github.com/themartiancompany/android-remote-camera/archive/refs/heads/master.tar.gz
 	sha256sums = SKIP

@@ -11,10 +11,10 @@ _local=false
 _proj="hip"
 _pkgname=android-remote-camera
 pkgname="${_pkgname}-git"
-pkgver="0.0.0.0.0.0.0.0.0.0.0.0.0.1".r0.g"da25be8351301cf2595916353e53ced8ca5df744"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.0.0.1.1".r0.g"5b3e06f024b089a173a01c3387bbf0f9d2f83651"
 pkgrel=1
 _pkgdesc=(
-  "Android camera recorder."
+  "Android remote camera."
 )
 pkgdesc="${_pkgdesc[*]}"
 arch=(
@@ -31,7 +31,7 @@ license=(
   AGPL3
 )
 depends=(
-  android-utils
+  android-vnc-viewer
   dynssh
   libcrash-bash
 )
